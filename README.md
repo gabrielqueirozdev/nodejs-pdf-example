@@ -19,4 +19,4 @@ npm start
 
 :trophy: After, you can request the PDF usign postman (https://www.postman.com/)!
 
-💡 You can view the steps on https://dev.to/gabrielqueirozdev
+💡 You can view the steps on [https://dev.to/gabrielqueirozdev](https://dev.to/gabrielqueirozdev/generate-pdf-with-puppeteer-handlebars-355h)
