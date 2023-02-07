@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a PDF example generated from a node.js API",
   "scripts": {
-    "start:dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
+    "start": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
     "build": "npx tsc"
   },
   "repository": {

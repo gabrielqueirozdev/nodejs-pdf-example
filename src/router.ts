@@ -3,6 +3,6 @@ import { PDFController } from "./controllers";
 
 const routes: Router = Router()
 
-routes.get('/pdf', PDFController.index)
+routes.get('/', PDFController.index)
 
 export default routes;
