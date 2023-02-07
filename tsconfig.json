@@ -1,0 +1,33 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "es2021",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "rootDirs": ["src"],
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "incremental": true,
+    "baseUrl": ".",
+    "typeRoots": ["src/@types", "./node_modules/@types"],
+    "paths": {
+      "@controllers/*": ["src/controllers/*"],
+      "@models/*": ["src/models/*"],
+      "@views/*": ["src/views/*"]
+    },
+    "strictPropertyInitialization": false
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
